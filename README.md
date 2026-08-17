@@ -3,6 +3,13 @@
 Repositorio profesional especializado en copropiedad inmobiliaria, hábitat residencial,
 vivienda, ciudad y gestión pública. Primera versión, con las siete secciones pedidas.
 
+**En línea (versión en revisión):** https://alandcastro.github.io/doris-gonzalez-web/
+
+Está publicado con `noindex` y un `robots.txt` que bloquea a los buscadores: se comparte por
+enlace directo para que Doris lo revise, no para que aparezca en Google bajo su nombre.
+**Al publicar la versión final hay que borrar `robots.txt` y quitar el `<meta name="robots">`
+de las siete páginas.**
+
 ## Cómo verlo
 
 Es un sitio estático: HTML, CSS y un archivo JavaScript. No tiene dependencias, ni build,
