@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investigación y libros — Doris González Lemunao</title>
+<meta name="description" content="Tesis de magíster, artículos técnicos en Revista REDES del MINVU, libros y capítulos de Doris González Lemunao sobre hábitat residencial, copropiedad y género.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="assets/estilos.css">
+</head>
+<body>
+<a class="salto-contenido" href="#contenido">Saltar al contenido</a>
+
+<header class="sitio-encabezado">
+  <div class="contenedor">
+    <a class="marca" href="index.html">Doris González Lemunao<span>Copropiedad, vivienda y ciudad</span></a>
+    <nav class="sitio-nav" aria-label="Secciones del sitio">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="perfil.html">Perfil y trayectoria</a></li>
+        <li><a href="columnas.html">Columnas</a></li>
+        <li><a href="investigacion.html" aria-current="page">Investigación y libros</a></li>
+        <li><a href="entrevistas.html">Entrevistas y multimedia</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <button class="tema-boton" type="button" data-tema>Tema</button>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section class="portada">
+    <div class="contenedor">
+      <p class="sobretitulo">Investigación y libros</p>
+      <h1>Producción académica y técnica</h1>
+      <p class="bajada">
+        Mi tesis de magíster, los artículos técnicos que he publicado en la Revista REDES del
+        Centro de Estudios del MINVU, y los libros y capítulos en los que he participado como
+        autora o coordinadora. Cada ficha incluye la referencia completa y el enlace de acceso.
+      </p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor" data-repositorio="investigacion">
+
+      <div class="filtros">
+        <div class="filtro-grupo">
+          <span class="etiqueta-grupo" id="rotulo-anios">Año</span>
+          <div class="filtro-grupo" role="group" aria-labelledby="rotulo-anios" data-filtro-anios></div>
+        </div>
+        <div class="filtro-grupo">
+          <span class="etiqueta-grupo" id="rotulo-temas">Tema</span>
+          <div class="filtro-grupo" role="group" aria-labelledby="rotulo-temas" data-filtro-temas></div>
+        </div>
+        <div class="filtro-grupo">
+          <span class="etiqueta-grupo"><label for="buscar">Buscar</label></span>
+          <input class="buscador" type="search" id="buscar" data-buscador
+                 placeholder="Buscar por título, tema o contenido" autocomplete="off">
+          <button class="filtro" type="button" data-limpiar>Limpiar filtros</button>
+        </div>
+      </div>
+
+      <p class="conteo" data-conteo aria-live="polite"></p>
+      <div data-lista></div>
+
+      <div class="aviso" style="margin-top:2.5rem">
+        <p><strong>Sobre las descargas.</strong> Los materiales se enlazan a su fuente de origen
+        —repositorio institucional, sitio del Centro de Estudios del MINVU o editorial— y no se
+        alojan en este sitio. Está pendiente definir con la autora si la tesis y los artículos
+        técnicos completos podrán además alojarse aquí.</p>
+        <p><strong>Publicación en revisión.</strong> Un capítulo de libro adicional
+        —«Políticas de vivienda en la ciudad de Santiago: entre la exclusión y la autogestión»—
+        no se publica todavía porque faltan la editorial, el año, el ISBN y la paginación.</p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitio-pie">
+  <div class="contenedor">
+    <div class="pie-rejilla">
+      <div>
+        <h2>Secciones</h2>
+        <ul>
+          <li><a href="perfil.html">Perfil y trayectoria</a></li>
+          <li><a href="columnas.html">Columnas y artículos</a></li>
+          <li><a href="investigacion.html">Investigación y libros</a></li>
+          <li><a href="entrevistas.html">Entrevistas y multimedia</a></li>
+          <li><a href="proyectos.html">Proyectos y reconocimientos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Fuentes originales</h2>
+        <ul>
+          <li><a href="https://opinion.cooperativa.cl/opinion/doris-gonzalez-lemunao/2023-01-12/221401.html" rel="noopener external">Columnas en Cooperativa</a></li>
+          <li><a href="https://centrodeestudios.minvu.gob.cl/" rel="noopener external">Centro de Estudios MINVU</a></li>
+          <li><a href="https://repositorio.uchile.cl/handle/2250/181227" rel="noopener external">Tesis en el repositorio U. de Chile</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Sobre este sitio</h2>
+        <ul>
+          <li>Contenidos revisados en <span data-anio-actual>2026</span></li>
+          <li>Resúmenes originales, enlaces a la fuente</li>
+        </ul>
+      </div>
+    </div>
+    <p class="descargo">
+      Este es el sitio personal de Doris González Lemunao. <strong>No es una página oficial del
+      Ministerio de Vivienda y Urbanismo</strong> ni de ninguna otra institución, y las opiniones
+      contenidas en las columnas corresponden a su autora. Las columnas, artículos y entrevistas
+      pertenecen a los medios y publicaciones que los editaron: en este sitio se ofrecen resúmenes
+      originales y el enlace a la fuente, sin reproducir los textos completos.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/datos.js"></script>
+<script src="assets/sitio.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Versión en revisión, todavía no validada por la autora.
+# Se comparte por enlace directo, no para indexación.
+# Quitar este archivo (y el meta noindex de las 7 páginas) al publicar la versión final.
+User-agent: *
+Disallow: /
