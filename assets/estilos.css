@@ -151,7 +151,7 @@ p:last-child { margin-bottom: 0; }
 .marca span {
   display: block;
   font-family: var(--sans);
-  font-size: .68rem;
+  font-size: .75rem;
   font-weight: 500;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -207,7 +207,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .sobretitulo {
-  font-size: .72rem;
+  font-size: .75rem;
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--acento);
@@ -263,7 +263,7 @@ p:last-child { margin-bottom: 0; }
 }
 .retrato p {
   position: relative;
-  font-size: .78rem;
+  font-size: .8rem;
   color: var(--fg-3);
   max-width: 20ch;
   margin: 0 auto;
@@ -331,7 +331,7 @@ p:last-child { margin-bottom: 0; }
   flex-wrap: wrap;
   gap: .5rem;
   align-items: center;
-  font-size: .74rem;
+  font-size: .75rem;
   letter-spacing: .06em;
   text-transform: uppercase;
   color: var(--fg-3);
@@ -364,7 +364,7 @@ p:last-child { margin-bottom: 0; }
   gap: .35rem;
 }
 .etiquetas li {
-  font-size: .72rem;
+  font-size: .75rem;
   color: var(--fg-3);
   border: 1px solid var(--linea);
   border-radius: 100px;
@@ -391,7 +391,7 @@ p:last-child { margin-bottom: 0; }
 .enlace-fuente::after { content: " \2197"; font-weight: 400; }
 
 .referencia {
-  font-size: .78rem;
+  font-size: .8rem;
   color: var(--fg-3);
   font-family: var(--mono);
   line-height: 1.5;
@@ -401,7 +401,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .insignia-destacado {
-  font-size: .68rem;
+  font-size: .75rem;
   letter-spacing: .08em;
   text-transform: uppercase;
   font-weight: 700;
@@ -444,7 +444,7 @@ p:last-child { margin-bottom: 0; }
   align-items: center;
 }
 .filtro-grupo > .etiqueta-grupo {
-  font-size: .72rem;
+  font-size: .75rem;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--fg-3);
@@ -546,7 +546,7 @@ p:last-child { margin-bottom: 0; }
 }
 .datos-caso .glosa {
   display: block;
-  font-size: .78rem;
+  font-size: .8rem;
   color: var(--fg-3);
   margin-top: .3rem;
   line-height: 1.4;
@@ -606,7 +606,7 @@ p:last-child { margin-bottom: 0; }
 }
 .canales .rotulo {
   display: block;
-  font-size: .72rem;
+  font-size: .75rem;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--fg-3);
@@ -631,7 +631,7 @@ p:last-child { margin-bottom: 0; }
 }
 .sitio-pie h2 {
   font-family: var(--sans);
-  font-size: .72rem;
+  font-size: .75rem;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--fg-2);
@@ -651,4 +651,10 @@ p:last-child { margin-bottom: 0; }
 @media print {
   .sitio-encabezado, .sitio-pie, .filtros, .tema-boton { display: none; }
   body { background: #fff; color: #000; }
+}
+
+/* Areas tactiles comodas en movil (minimo ~40 px de alto) */
+@media (max-width: 720px) {
+  .tema-boton { min-height: 2.5rem; padding: .5rem .9rem; }
+  .enlace-fuente { display: inline-flex; align-items: center; min-height: 2.5rem; }
 }
